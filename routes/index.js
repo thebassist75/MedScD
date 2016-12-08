@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* LoginPage router */
-router.get('/loginPage', function(req, res, next){
+router.get('/appPage', function(req, res, next){
   res.render('index', { title: 'MedScD'});
 });
 module.exports = router;
