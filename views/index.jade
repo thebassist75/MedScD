@@ -1,19 +1,22 @@
 extends layout
-
 block content
-  
+
   div.layerBg 
-    div.center1
-      h1 MeDScD
-        span
-          sup
-            &trade;
-    div.center2
-      img(src="images/slotSnip1.jpg")
-    div.center3
-      h2 P A S S W O R D
-      input(type='password' placeholder='Password' size='20' id='wordTest' autofocus)
-      br
-      a(href='/appPage' target='_blank')
-        button SUBMIT
-    div.bttmFormat
+    div.container
+      div.page-header
+        div.jumbotron
+          div.jumbotron.text-center
+            div.center1
+              h1 MeDScD
+                span
+                  sup
+                    &trade;
+            div.center2
+              img(src="images/slotSnip1.jpg")
+            div.center3
+              h2 P A S S W O R D
+              input(type='password' placeholder='Password' size='20' id='wordTest' autofocus)
+              br
+              a(href='/appPage' target='_blank')
+                button( onclick='pswFunction();' ) SUBMIT
+            

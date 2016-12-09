@@ -5,18 +5,23 @@
 }
 span{font-size: 50%;} /* Trade mark entity */
 
+input{padding: 3px;}
+
+button{
+	margin-top: 10px !important;
+	padding: 5px;
+	font-size: 1.5em;
+}
 .center1{ /* #center1: Logo */
 	display: block;
-	margin-left: 280px;
 	margin-bottom: 50px;
 	}
 .center1 h1{
-	font-size: 9em;
-	color: pink;
+	font-size: 600% !important;
+	color: pink !important;
 	text-shadow: 3px 3px 0 black;
 	}
 .center2{ /* #center2: SlotMachine Game */
-	margin-left: 500px;
 	margin-bottom: 100px;
 	}
 .center2 img{
@@ -27,14 +32,10 @@ span{font-size: 50%;} /* Trade mark entity */
 	border-radius: 50px 50px 50px 50px;
 	box-shadow: 0 0 10px black;
 	}
-.center3{ /* #center3: Password entry */
-	margin-left: 500px;
-	}
 .layerBg{
 	background: linear-gradient(to bottom, rgba(200,0,0,0), rgba(200,0,0,1));
 	background: -moz-linear-gradient(bottom, rgba(200,0,0,0), rgba(200,0,0,1)); /* FireFox */
 	}
-.bttmFormat{ /* #layerBg formatting */
-	padding: 50px;
-	margin-top: 10px;
-	}
+.jumbotron{
+	background-color: hsla(167, 99%, 42%, .0) !important;
+}
