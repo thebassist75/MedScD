@@ -3,7 +3,7 @@
 .bckHsla{
   background-color: hsla(167, 99%, 42%, .6);
 }
-span{font-size: 50%;} /* Trade mark entity */
+#entity{font-size: 50%;} /* Trade mark entity */
 
 input{padding: 3px;}
 
