@@ -5,13 +5,23 @@ var router = express.Router();
 var mongoose = require('mongoose');
 mongoose.connect('localhost:27017/test');
 
-/* GET home page. */
+/* Login Page */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'MedScD' });
 });
 
-/* LoginPage router */
+/* Main User Page */
 router.get('/appPage', function(req,res,next) {
   res.render('appPage', { title: 'MedScD' });
+});
+
+/* MedSearch Page */
+router.get('/medSearch', function(req,res,next) {
+  res.render('medSearch', { title: 'MedScD' });
+});
+
+/* MedTracker Page */
+router.get('/medTracker', function(req,res,next) {
+  res.render('medTracker', { title: 'MedScD' });
 });
 module.exports = router;

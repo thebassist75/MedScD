@@ -36,6 +36,9 @@ button{
 	background: linear-gradient(to bottom, rgba(200,0,0,0), rgba(200,0,0,1));
 	background: -moz-linear-gradient(bottom, rgba(200,0,0,0), rgba(200,0,0,1)); /* FireFox */
 	}
+.extend{
+  height: 425px;
+}
 .jumbotron{
 	background-color: hsla(167, 99%, 42%, .0) !important;
 }

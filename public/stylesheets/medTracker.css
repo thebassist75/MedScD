@@ -1,0 +1,33 @@
+*{margin:0;padding:0;} /* Reset */
+
+header h1{
+	text-align: center;
+	color: pink;
+	text-shadow: 1px 2px 3px black;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 110%;
+}
+thead{
+	padding: 5px;
+}
+th{
+	border-bottom: 1px solid white;
+	text-align: center;
+	color: pink;
+}
+tr, td{
+	padding: 10px;
+}
+input[type=checkbox]{
+	width: 25px;
+	height: 25px;
+}
+button{
+	margin-top: 10px;
+}
+.rBorder{
+	border-right: 1px solid white;
+}

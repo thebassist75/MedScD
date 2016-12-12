@@ -1,0 +1,40 @@
+*{margin:0;padding:0} /* Reset */
+
+header{
+	margin: 10px 0 10px 0;
+}
+.search{
+	padding: 5px;
+	background-color: #fffff0;
+	border: 1px solid black;
+	border-radius: 20px 20px 20px 20px;
+	height: 100%;
+	max-height: 1000px;
+}
+.search1 {
+	margin: 0 16px;
+	padding: 0 3px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+button{margin-top: 10px;}
+
+/* Search Box */
+input.medSearch {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(''); /* (Optional) Add Logo here.*/
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input.medSearch:focus {
+    width: 100%;
+}

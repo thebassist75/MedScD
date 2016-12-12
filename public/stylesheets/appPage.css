@@ -7,6 +7,10 @@ main p{
 	color: yellow;
 	font-size: 150%;
 }
+aside{
+	width: 100%;
+	padding-bottom: -15px;
+}
 aside button{
 	width: 100px;
 	height: 150px;
@@ -14,6 +18,25 @@ aside button{
 	border-radius: 10px 10px 10px 10px;
 	box-shadow: 0 0 5px blue;
 	margin-top: 200px;
+}
+.img{
+	width: 150px;
+	height: 150px;
+	float: right;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 2px 3px black;
+}
+#img{
+	width: 150px;
+	height: 150px;
+	float: right;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 2px 3px black;
+	margin-top: 163px;
+	margin-right: -150px;
+	position: relative;
 }
 #sidebarA{
 	float: left;
@@ -29,6 +52,7 @@ aside button{
 }
 #calendarHeader{
 	font-family: Verdana;
+	font-weight: bold;
 	background-color: white;
 	text-align: center;
 	border: 1px solid black;
@@ -37,7 +61,7 @@ aside button{
 #calendarDates>table>tr>td{
 	font-size: 125%;
 	text-align: center;
-	padding: 5px;
+	padding: 4px;
 	margin-left: 3px;
 	border: 1px solid black;
 }
@@ -51,6 +75,7 @@ aside button{
 #txt{
 	font-size: 200%;
 	font-weight: bold;
+	max-width: 250px;
 	color: white;
 	margin-top: 10px;
 	border-style: double;
