@@ -22,11 +22,11 @@ button{
 	text-shadow: 3px 3px 0 black;
 	}
 .center2{ /* #center2: SlotMachine Game */
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	}
 .center2 img{
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 300px;
+	max-height: 300px;
 	width: 100%;
 	border: 2px solid white;
 	border-radius: 50px 50px 50px 50px;
