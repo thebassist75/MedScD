@@ -12,7 +12,7 @@ button{
 	padding: 5px;
 	font-size: 1.5em;
 }
-.center1{ /* #center1: Logo */
+.center1{ /* #center1: App. Name */
   font-family: 'Molle', cursive;
 	display: block;
 	margin-bottom: 50px;
@@ -22,7 +22,7 @@ button{
 	color: #ff9999 !important;
 	text-shadow: 3px 3px 0 black;
 	}
-.center2{ /* #center2: SlotMachine Game */
+.center2{ /* #center2: SlotMachine Game | Picture Logo */
 	margin-bottom: 80px;
 	}
 .center2 img{
