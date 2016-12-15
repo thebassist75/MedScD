@@ -13,12 +13,13 @@ button{
 	font-size: 1.5em;
 }
 .center1{ /* #center1: Logo */
+  font-family: 'Molle', cursive;
 	display: block;
 	margin-bottom: 50px;
 	}
 .center1 h1{
 	font-size: 600% !important;
-	color: pink !important;
+	color: #ff9999 !important;
 	text-shadow: 3px 3px 0 black;
 	}
 .center2{ /* #center2: SlotMachine Game */
@@ -41,4 +42,8 @@ button{
 }
 .jumbotron{
 	background-color: hsla(167, 99%, 42%, .0) !important;
+}
+.today{
+	background: blue;
+	color: red;
 }
