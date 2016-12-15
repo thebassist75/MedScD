@@ -109,6 +109,7 @@ main button.accordion {
 main button.accordion.active, button.accordion:hover {
   background-color: hsla(0, 0%, 0%, .0);
 	color: gold;
+	box-shadow: 0 0 12px gold;
 }
 span.alarmBttn {
 	padding: 1px;
@@ -118,7 +119,7 @@ div.panel {
 	height: 100px !important;
   padding: 0 18px;
   display: none;
-  background-color: white;
+  background-color: hsla(50, 97%, 46%, .4);
 }
 div.panel.show {
   display: block !important;

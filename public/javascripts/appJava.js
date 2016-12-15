@@ -18,7 +18,7 @@ window.onload = function(){
 	var calendar = getCalendar(dayNom, days);
 		document.getElementById("calendarMonthsYears").innerHTML = monthName[month]+" "+year;
 		document.getElementById("calendarDates").appendChild(calendar);
-}
+};
 
 function getCalendar(dayNom, days){
 	var table = document.createElement('table');

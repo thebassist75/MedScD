@@ -33,6 +33,9 @@ button{
 	border-radius: 50px 50px 50px 50px;
 	box-shadow: 0 0 10px black;
 	}
+  .center3 h2{
+    font-family: 'Aref Ruqaa', serif;
+  }
 .layerBg{
 	background: linear-gradient(to bottom, rgba(200,0,0,0), rgba(200,0,0,1));
 	background: -moz-linear-gradient(bottom, rgba(200,0,0,0), rgba(200,0,0,1)); /* FireFox */
@@ -43,6 +46,7 @@ button{
 .jumbotron{
 	background-color: hsla(167, 99%, 42%, .0) !important;
 }
+/* Save for Calendar Repiar */
 .today{
 	background: blue;
 	color: red;
